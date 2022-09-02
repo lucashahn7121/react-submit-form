@@ -1,0 +1,19 @@
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  .row-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .submit-container {
+    .row-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

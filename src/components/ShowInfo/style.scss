@@ -1,0 +1,17 @@
+.show-info-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  .normal-font {
+    font-weight: normal;
+  }
+  .text-area {
+    white-space: pre;
+    margin-top: 0;
+  }
+}
+
+.display-row {
+  display: flex;
+  flex-direction: row;
+}
